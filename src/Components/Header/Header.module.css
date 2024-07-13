@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+    border-bottom: 3px solid #f44336;
+    box-shadow:0 0 40px #f44336;
+    color: #fff;
+    position: fixed;
+    top:0;
+}
+h1{
+    color:#f44336
+    
+}
+a{  text-decoration: none;
+    color: aliceblue; 
+    font-weight: 500;
+    padding-inline: 0.5rem;
+}

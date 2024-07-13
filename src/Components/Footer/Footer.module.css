@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: black;
+    background-color: #000;
+    border-bottom: 3px solid #f44336;
+    box-shadow:0 0 40px #f44336;
+    width: 100%;
+    color:#f44336;
+    height: 25vh;
+}
