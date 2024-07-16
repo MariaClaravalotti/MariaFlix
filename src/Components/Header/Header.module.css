@@ -17,11 +17,13 @@
     position: fixed;
     top:0;
 }
-h1{
+.header h1{
     color:#f44336
+
     
 }
-a{  text-decoration: none;
+.header a{  
+    text-decoration: none;
     color: aliceblue; 
     font-weight: 500;
     padding-inline: 0.5rem;
