@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: rgb(80, 67, 67);
+    height: 100%;
+    
+}
+
+section {
+   
+    color: aliceblue;
+    background-color: rgba(49, 33, 33);
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 80vh;
+   /* background-image: url("https://yata-apix-cbb6b702-ef1a-4258-908c-6cfa93768a5c.s3-object.locaweb.com.br/13ccb0ed6a4c4b8b8d6e06bab0378823.png");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    &:hover{
+        border:2px solid #fff ;
+        outline: none;
+        border-radius: 8px;
+        box-shadow:0 0 40px #7d2ae8 ;
+        cursor: pointer;
+    }
+}
